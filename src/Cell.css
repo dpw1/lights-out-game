@@ -1,0 +1,17 @@
+.Cell {
+  height: 100px;
+  width: 100px;
+  border-radius: 1px;
+  background-color: #263238;
+  transition: background-color 0.7s ease;
+}
+
+@media (max-width: 585px) {
+  .Cell {
+    width: 55px;
+    height: 55px;
+  }
+}
+.Cell-lit {
+  background-color: #00bcd4;
+}
